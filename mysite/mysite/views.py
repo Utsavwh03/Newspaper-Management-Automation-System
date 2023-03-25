@@ -17,7 +17,7 @@ def homepage(requests):
           }
     return render(requests,"index.html",data)#send data  to html page 
 
-def addData(requests):
-    empadd=Employee(name="Rohan",address="London",email="h@gmail.com",phone_number="54534534",salary="554524")
-    empadd.save()
-    return HttpResponse()
+# def addData(requests):
+#     empadd=Employee(name="Rohan",address="London",email="h@gmail.com",phone_number="54534534",salary="554524")
+#     empadd.save()
+#     return HttpResponse()

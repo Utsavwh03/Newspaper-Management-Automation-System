@@ -14,3 +14,5 @@ class Employee(models.Model):
     email = models.EmailField(max_length=100)
     phone_number = models.CharField(max_length=20)
     salary = models.DecimalField(max_digits=10, decimal_places=2)
+class Magazine(models.Model):
+        

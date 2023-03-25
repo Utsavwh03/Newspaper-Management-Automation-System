@@ -1,3 +1,7 @@
 django-admin startproject mysite # for developing the prefiles
 python manage.py runserver 
-# Newspaper-Management-Automation-System
+
+for models migration the command used are 
+python manage.py startapp Newspaper
+python manage.py make migrations 
+python manage.py migrate
